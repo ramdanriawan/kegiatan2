@@ -1,4 +1,4 @@
-<pre>
+<pre>asdcasdsada
 <?php 
 
 $pdo = new PDO("mysql:host=localhost;dbname=kegiatan", "root", "");
