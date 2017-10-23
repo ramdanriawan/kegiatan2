@@ -22,7 +22,7 @@ $max	 = ceil($jml/$row);
 				<i class='icon icon-white icon-plus'></i>
 			</button>
 			<button id="print_data_pengembangan" class="btn btn-info" type="button">
-				Print
+				<a href="?menu=laporandatapengembangan" style="color:white"> Print </a>
 				<span class="icon icon-print"></span> 
 			</button>
 		</div>
@@ -76,8 +76,8 @@ $max	 = ceil($jml/$row);
 						<td><?php echo $data['tahun'];?></td>
 						<td>  
 						  <div class='btn-group'>
-						  <a href="hapus_penelitian.php" class="btn btn-sm btn-warning">Hapus<i class="fa fa-arrow-circle-right"></i></a>
-              			  <a href="edit_penelitian.php" class="btn btn-sm btn-warning">Edit<i class="fa fa-arrow-circle-right"></i></a>
+						  <a href="?menu=hapus_pengembangan&no=<?php echo $data['No'];?>" class="btn btn-sm btn-warning">Hapus<i class="fa fa-arrow-circle-right"></i></a>
+              			  <a href="?menu=edit_pengembangan&no=<?php echo $data['No'];?>" class="btn btn-sm btn-warning">Edit<i class="fa fa-arrow-circle-right"></i></a>
 						  </div>
 						</td>
 					</tr>

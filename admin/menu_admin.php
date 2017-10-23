@@ -36,15 +36,26 @@
 												<ul class='nav nav-tabs'>
 													<li class='active'><a href='#home' data-toggle='tab'>Home</a>
 													</li>
+													<li><a href='#sejarah' data-toggle='tab'>Sejarah</a>
+													</li>
+													<li><a href='#visimisi' data-toggle='tab'>Visi Misi</a>
+													</li>
 													
 												</ul>
 
 												<div class='tab-content'>
 													<div class='tab-pane fade in active' id='home'>
-													<h4>Pelaporan Monitoring Kinerja Kegiatan</h4>
+														<h4>Pelaporan Monitoring Kinerja Kegiatan</h4>
 													</div>
-													
+
+													<div class='tab-pane fade' id='sejarah'>
+														<h4>Isi sejarah di menu_admin.php line 49</h4>
+													</div>
+													<div class='tab-pane fade' id='visimisi'>
+														<h4>Isi visi misi di menu_admin.php line 55</h4>
+													</div>
 												</div>
+
 											</div>
 										</div>
 									</div>";

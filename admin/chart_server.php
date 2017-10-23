@@ -1,4 +1,4 @@
-<?php 
+<?php error_reporting(0);
 $bln2 = $_GET["bln2"] + 1;
 $pdo = new PDO("mysql:host=localhost;dbname=kegiatan", "root", "");
 $query1 = $pdo->prepare("select target_wkt_capai from penelitian where target_wkt_capai >= '$_GET[thn1]-$_GET[bln1]' && target_wkt_capai <= '$_GET[thn2]-$bln2'");

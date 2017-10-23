@@ -5,7 +5,7 @@
 
 <div class="col-md-12">
 	<form id="form11" class="form-inline" name="form1" method="post" action="cetak.php" target="_blank" enctype="application/x-www-form-urlencoded">
-  		<select class="form-control" name="tgl1" id="tgl1">
+<!--   		<select class="form-control" name="tgl1" id="tgl1">
 			<option>01</option>
 			<option>02</option>
 			<option>03</option>
@@ -37,7 +37,7 @@
 			<option>29</option>
 			<option>30</option>
 			<option>31</option>
-		</select>
+		</select> -->
 		
 		<select class="form-control" name="bln1" id="bln1">
 			<option	 value="01">Januari	</option>
@@ -68,7 +68,7 @@
 
 		</select>
 		S.d 
-		<select class="form-control" name="tgl2" id="tgl2">
+<!-- 		<select class="form-control" name="tgl2" id="tgl2">
 			<option>01</option>
 			<option>02</option>
 			<option>03</option>
@@ -100,7 +100,7 @@
 			<option>29</option>
 			<option>30</option>
 			<option>31</option>
-		</select>
+		</select> -->
 		
 		<select class="form-control" name="bln2" id="select2">
 			<option	value="01">Januari </option>
@@ -129,7 +129,7 @@
 			?>
 		</select>
 		
-		<button  id="button_cetak" type="button" name="Submit" value="Cetak" class="btn btn-primary ">Cetak</button>
+		<!-- <button  id="button_cetak" type="button" name="Submit" value="Cetak" class="btn btn-primary ">Cetak</button> -->
 		<button  type="submit" name="Submit" value="Lihat Grafik" class="btn btn-info">Lihat Grafik</button>
 	</form>
 <p>
