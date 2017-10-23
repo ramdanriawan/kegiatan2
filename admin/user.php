@@ -98,19 +98,19 @@ $max	 = ceil($jml/$row);
 					</div> -->
 					<div class="form-group">
 						<label for="username">Username:</label>
-						<input id="username" class="form-control" type="text" name="username" placeholder="user123" minlength="3">
+						<input id="username" class="form-control" type="text" name="username" placeholder="user123" minlength="3" required>
 					</div>
 					<div class="form-group">
 						<label for="password">Password:</label>
-						<input id="password" class="form-control" type="password" name="password" placeholder="password"  minlength="3">
+						<input id="password" class="form-control" type="password" name="password" placeholder="password"  minlength="3"  required>
 					</div>
 					<div class="form-group">
 						<label for="nama">Nama:</label>
-						<input id="nama" class="form-control" type="text" name="nama" placeholder="nama"  minlength="3">
+						<input id="nama" class="form-control" type="text" name="nama" placeholder="nama"  minlength="3"  required>
 					</div>
 					<div class="form-group">
 						<label for="alamat">Alamat:</label>
-						<input id="alamat" class="form-control" type="text" name="alamat" placeholder="alamat"  minlength="3">
+						<input id="alamat" class="form-control" type="text" name="alamat" placeholder="alamat"  minlength="3"  required>
 					</div>
 
 					<input type="hidden" name="media" value="register">
