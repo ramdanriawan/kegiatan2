@@ -117,7 +117,7 @@ while($cetakdata=$ambildata->fetch(PDO::FETCH_ASSOC)):?>
 <td bgcolor="#FFFFFF"><?php echo $cetakdata["pre_target_capai"]?></td>
 <td bgcolor="#FFFFFF"><?php echo $cetakdata["realisasi_capai"]?></td>
 <td bgcolor="#FFFFFF"><?php echo $cetakdata["pre_realisasi"]?></td>
-<td bgcolor="#FFFFFF"><?php echo TanggalIndo($cetakdata['tahun'])?></td>
+<td bgcolor="#FFFFFF"><?php echo $cetakdata['tahun'])?></td>
 </tr>
 <?php endwhile; ?>
 </table>

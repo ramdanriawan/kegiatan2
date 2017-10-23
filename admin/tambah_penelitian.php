@@ -5,7 +5,7 @@
 		<h5>Input Data Penelitian</h5>
 	</header>
 		<div class="body">
-			<form action="?menu=insert" method="post" class="form-horizontal">			
+			<form action="insert.php" method="get" class="form-horizontal">			
 				<div class="form-group">
 					<label class="control-label col-lg-4">Judul Kegiatan Penelitian</label>
 					<div class="col-lg-4">
@@ -61,6 +61,10 @@
 						</select>
 					</div>
 				</div>
+				
+				<input type="hidden" name="insert_to" value="penelitian">
+				
+				
 				<div class="form-actions no-margin-bottom" style="text-align:center;">
 					<input type="submit" name="submit" value="Simpan" class="btn btn-primary" /> 
 					<a href="?menu=penelitian" class="btn btn-warning">Back</a>				

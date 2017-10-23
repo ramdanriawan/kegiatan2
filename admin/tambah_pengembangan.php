@@ -5,7 +5,7 @@
 		<h5>Input Data Pengembangan</h5>
 	</header>
 		<div class="body">
-			<form action="insert.php?menu=tambah_pengembangan" method="post" class="form-horizontal">
+			<form action="insert.php" method="GET" class="form-horizontal">
 			<div class="form-group">
 							<label class="control-label col-lg-4">No</label>
 							<div class="col-lg-4">
@@ -64,6 +64,9 @@
           					<option ="2020">2020</option>
         				</select>
 						</div>
+						
+						<input type="hidden" name="insert_to" value="pengembangan">
+						
 						<div class="form-actions no-margin-bottom" style="text-align:center;">
 							<input type="submit" name="submit" value="Simpan" class="btn btn-primary" /> <a href="?menu=pengembangan" class="btn btn-warning">Back</a>
 						
